@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Portfolio Website</title>
+</head>
+<body class="bg-neutral-100" style="font-family: 'Montserrat', sans-serif;">
+    <header class="container mx-auto p-8">
+        <div class="flex justify-between items-center">
+            <div class="lg:w-1/3">
+               <h1 class="text-teal-600 text-4xl font-light">John<span class="text-red-600">.</span></h1>
+            </div>
+            <div class="lg:flex justify-center items-center hidden lg:space-x-8 font-bold">
+                <div class="hover:border-b-2 border-black transition-all"><a href="#">Home</a></div>
+                <div class="transition-all relative group">
+                    <a href="#">Works <i class="fa-solid fa-chevron-down"></i></a>
+                    <div class="hidden absolute group-hover:block hover:block bg-neutral-800 text-white px-10 py-3 transition-all">
+                        <div class="my-1 hover:border-b-2 transition-all border-white"><a href="#" class="">Work1</a></div>
+                        <div class="my-1 hover:border-b-2 transition-all border-white"><a href="#" class="">Work2</a></div>
+                        <div class="my-1 hover:border-b-2 transition-all border-white"><a href="#" class="">Work3</a></div>
+                    </div>
+                </div>
+                <div class="hover:border-b-2 border-black transition-all"><a href="#">About</a></div>
+                <div class="hover:border-b-2 border-black transition-all"><a href="#">Projects</a></div>
+                <div class="hover:border-b-2 border-black transition-all"><a href="#">Services</a></div>
+            </div>
+            <div class="font-semibold hidden lg:flex">
+                <button class="px-4 py-2 border-2 border-black hover:bg-black hover:text-white transition-all">Let's Chat</button>
+            </div>
+            <div class="lg:hidden"><i class="fa-solid fa-bars text-4xl"></i></div>
+        </div>
+    </header>
+    <hr class="bg-black h-1">
+    <section class="bg-neutral-200">
+        <div class="flex justify-between items-center container mx-auto relative">
+            <div class="w-full md:w-1/2 flex flex-col p-9 md:pt-20 gap-y-12">
+                <h1 class="text-5xl font-bold">Hi! <br>
+                I work at XYZ</h1>
+                <p class="text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi.</p>
+                <div class="space-x-4">
+                    <button class="px-6 py-3 bg-red-900 text-white hover:bg-red-700 transition-all ">Hire Me</button>
+                    <button class="px-4 py-2 text-neutral-700 bg-neutral-300 hover:outline transition-all outline-red-900">Projects <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+            </div>
+            <div class="w-full flex items-end justify-end mt-32">
+                <img src="/assets/images/undraw_web_developer_re_h7ie.svg" class="md:max-w-[800px]" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-black p-5 bottom-0 m">
+        <div class="container mx-auto text-white">
+            <div class="my-8">
+                <h1 class="font-semibold text-2xl">Contact Me</h1>
+                <p class="font-xl font-bold">myemail@xyz.com</p>
+            </div>
+        </div>
+        <div class="flex gap-8">
+            <div class="text-center">
+                <h class="font-semibold text-2xl"1>80+</h>
+                <p class="text-xl">Satisfied Clients</p>
+            </div>
+            <div class="text-center">
+                <h1 class="font-semibold text-2xl">120+</h1>
+                <p class="text-xl">Projects Completed</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
